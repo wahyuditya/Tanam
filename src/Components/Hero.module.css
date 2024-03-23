@@ -1,0 +1,65 @@
+.container {
+  border-bottom: solid 1px #8888;
+  margin-left: 147px;
+  margin-right: 42px;
+  display: flex;
+  padding-bottom: 87px;
+  padding-top: 81px;
+  max-width: 100vw;
+}
+.tagLine h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 48px;
+  color: #39906e;
+  font-weight: 600;
+  max-width: 738px;
+  margin: 0px;
+}
+.tagLine {
+  margin-bottom: 45px;
+  width: 700px;
+  position: absolute;
+}
+.tagLine img {
+  position: relative;
+  top: -10px;
+  padding: 0px;
+}
+.rightGroup img {
+  max-width: 722px;
+  position: relative;
+  top: -40px;
+}
+.description,
+.cta {
+  /* max-width: 434px; */
+  font-size: 16px;
+}
+.description {
+  font-weight: 400;
+  margin-bottom: 82px;
+  margin-top: 50%;
+}
+.cta button {
+  padding: 10px 24px;
+  width: 208px;
+  border-radius: 100px;
+  border: none;
+  font-weight: 500;
+  font-family: "open sans";
+}
+.cta {
+  display: flex;
+  justify-content: space-between;
+}
+.paket {
+  background-color: #39906e;
+  color: white;
+}
+.portfolio {
+  background-color: white;
+  color: #39906e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,103 @@
+.navbar {
+  border-bottom: solid 1px #8888;
+  display: flex;
+  max-height: 140px;
+  padding: 45px 38px;
+  justify-content: space-between;
+}
+
+.logo {
+  max-width: 140px;
+  align-items: center;
+  display: flex;
+}
+
+.menus a {
+  color: #3d3d3d;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+.menus a:hover {
+  color: #39906e;
+}
+
+.FaBars,
+.FaTimes {
+  display: none;
+}
+
+.menus {
+  min-width: 344px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avatar {
+  max-width: 50px;
+  align-items: center;
+  display: flex;
+}
+.rightGroup {
+  display: flex;
+  justify-content: space-between;
+  min-width: 456px;
+}
+
+@media screen and (max-width: 700px) {
+  .FaBars {
+    align-items: center;
+    border: none;
+    font-size: 24px;
+    color: #3d3d3d;
+    background-color: white;
+    display: flex;
+  }
+  .FaTimes {
+    align-items: center;
+    border: none;
+    font-size: 24px;
+    color: #3d3d3d;
+    background-color: white;
+    display: none;
+  }
+  .menus a {
+    display: flex;
+  }
+  .menus {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 122px;
+    right: 0px;
+    gap: 34px;
+    width: 100%;
+    padding: 30px 0px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 0px 3px 0px;
+  }
+  .avatar {
+    display: none;
+    position: absolute;
+    top: 146px;
+  }
+  .rightGroup {
+    display: flex;
+    justify-content: end;
+    min-width: auto;
+  }
+  .openFaBars {
+    display: none;
+  }
+  .openFaTimes {
+    display: flex;
+  }
+  .openAvatar,
+  .openMenus {
+    display: flex;
+  }
+  .logo img {
+    max-width: 100px;
+  }
+}
